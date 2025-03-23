@@ -15,11 +15,4 @@ Language: Java
 
 Tools: Any Java IDE (IntelliJ, Eclipse, VS Code) or Command Line
 
-OUTPUT WILL LIKE
-Enter your guess: 50
-Your number is too small! Try again...
-Enter your guess: 75
-Your number is too large! Try again...
-Enter your guess: 63
-Wow! Correct Answer
-Game Over! The number was: 63
+
