@@ -1,0 +1,32 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package Project;
+
+import java.util.Scanner;
+
+public class RandomNumberGame {
+   public RandomNumberGame() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      int var2 = (int)(Math.random() * 100.0);
+      boolean var3 = false;
+
+      do {
+         System.out.print("Guess our number: ");
+         int var4 = var1.nextInt();
+         if (var4 == var2) {
+            System.out.println("Wow! Correct Answer");
+            break;
+         }
+
+         if (var4 > var2) {
+            System.out.println("Your number is too large! Try another number!...");
+         } else {
+            System.out.println("Your number is too small! Try another number!...");
+         }
+      } while(var2 >= 0);
+
+      System.out.println("Our number is: " + var2);
+   }
+}
